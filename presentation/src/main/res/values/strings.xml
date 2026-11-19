@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard Screen -->
+    <string name="cd_add_expense">Add Expense</string>
+    <string name="total_spent">Total Spent</string>
+    <string name="amount_format">$%.2f</string>
+    <string name="recent_transactions">Recent Transactions</string>
+
+    <!-- Add Expense Screen -->
+    <string name="add_new_expense">Add New Expense</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Categories -->
+    <string name="category_food">Food</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_housing">Housing</string>
+    <string name="category_utilities">Utilities</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_others">Others</string>
+</resources>
