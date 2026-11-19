@@ -1,7 +1,6 @@
 package com.davidmerchan.personaltrackerplayground.domain.usecase
 
 import app.cash.turbine.test
-import com.davidmerchan.personaltrackerplayground.data.repository.InMemoryExpenseRepository
 import com.davidmerchan.personaltrackerplayground.domain.model.Expense
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
@@ -14,14 +13,14 @@ import org.junit.Test
 class GetExpensesUseCaseTest {
 
     private lateinit var getExpensesUseCase: GetExpensesUseCase
-    private lateinit var repository: InMemoryExpenseRepository
+    private lateinit var repository: FakeExpenseRepository
 
     /**
      * Sets up the test dependencies before each test execution.
      */
     @Before
     fun setUp() {
-        repository = InMemoryExpenseRepository()
+        repository = FakeExpenseRepository()
         getExpensesUseCase = GetExpensesUseCase(repository)
     }
 

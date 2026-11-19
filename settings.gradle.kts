@@ -24,3 +24,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "PersonalTrackerPlayground"
 include(":app")
+include(":domain")
+include(":data")
+include(":presentation")
